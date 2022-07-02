@@ -14,4 +14,4 @@ while (c < 10)
 }
 putchar('\n');
 return (0);
-;
+}
