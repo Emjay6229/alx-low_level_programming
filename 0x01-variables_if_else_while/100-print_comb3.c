@@ -1,4 +1,4 @@
-#include <stdio.h>>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * main - main block to be executed
@@ -35,7 +35,7 @@ while (d < 10)
 		}
 		c++;
 	}
-	d++
+	d++;
 }
 putchar('\n');
 return (0);
