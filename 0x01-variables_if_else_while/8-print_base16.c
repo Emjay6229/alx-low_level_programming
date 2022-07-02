@@ -14,6 +14,8 @@ for (ch = '0'; ch <= '9'; ch++)
 }
 for (ch = 'a'; ch <= 'f'; ch++)
 {
-	putchar('\n');
-return (0)
+	putchar(ch);
+}
+putchar('\n');
+return (0);
 }
