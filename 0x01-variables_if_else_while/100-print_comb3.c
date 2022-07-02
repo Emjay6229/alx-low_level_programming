@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block to be executed
- * Description: write programs that print different combination of two digits number
+ * Description: write programs that print different combination of two digits
  * Numbers to be separated with ,, followed by a space
  * The two digits must be different
  * 01 and 10 are considered the same combination of two digits
