@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - block to be executed
+ * main- block to be executed
  * Description: Get random number and compare to 5
  * Return: 0 success
  */
@@ -11,7 +11,7 @@ int main(void)
 int n;
 int last;
 srand(time(0));
-n = rand() - RAND_MAX / 2
+n = rand() - RAND_MAX / 2;
 last = n % 10;
 if (last > 5)
 {
