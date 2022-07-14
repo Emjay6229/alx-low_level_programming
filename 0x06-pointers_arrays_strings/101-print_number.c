@@ -1,26 +1,24 @@
 #include "main.h"
 /**
- * *rot13 - encodes a string using rot13.
- * @s: int type array pointer
- * Return: encoded
+ * print_number - print numbers chars
+ * @n: integer params
+ * Return: 0
  */
 
-char *rot13(char *s)
+void print_number(int n)
 {
-	int i, ii;
-	char input[] =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	unsigned int n1;
 
-	for (i = 0; s[i] != '\0'; i++)
+	n1 = n;
+
+	if (n < 0)
 	{
-		for (ii = 0; ii < 54; ii++)
-		{
-			if (((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A')) && s[i] == input[ii])
-			{
-				s[i] = output[ii];
-				break;
-			}
-		}
+		_putchar('-');
+		n1 = -n;
 	}
-	return (s);
+	if (n1 / 10 != 0)
+	{
+		print_number(n1 / 10);
+	}
+	_putchar(n1 % 10 + '0');
 }
