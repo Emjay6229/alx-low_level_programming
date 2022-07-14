@@ -1,4 +1,4 @@
-EVEN MORE POINTERS ARRAY AND STRINGS
+MORE POINTERS ARRAY AND STRINGS
 
 What are pointers and how to use them
 What are arrays and how to use them
