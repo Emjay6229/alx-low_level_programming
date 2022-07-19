@@ -1,1 +1,1 @@
-A new C Programmer is born!
+This module covers the history and basics of C-programming.
